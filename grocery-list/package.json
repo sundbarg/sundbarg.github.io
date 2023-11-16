@@ -1,6 +1,9 @@
 {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "name": "grocery-list",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "homepage": "https://sundbarg.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
